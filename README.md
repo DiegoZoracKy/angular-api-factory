@@ -8,12 +8,12 @@ Gets an object literal with a desired API's structure and based on it, creates a
 
 ### NPM / Node
 ```javascript
-npm install data-query
+npm install angular-api-factory
 ```
 
 ### Bower
 ```javascript
-bower install data-query
+bower install angular-api-factory
 ```
 
 ## The goal
