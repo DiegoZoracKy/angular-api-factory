@@ -1,0 +1,37 @@
+{
+	"name": "angular-api-factory",
+	"version": "0.1.1",
+	"description": "Gets an object literal with a desired API's structure and based on it, creates a well defined interface to handle ajax calls ($http).",
+	"homepage": "https://github.com/DiegoZoracKy/angular-api-factory",
+	"main": "./lib/apifactory.module.js",
+	"author": {
+		"name": "Diego ZoracKy",
+		"email": "diego.zoracky@gmail.com",
+		"url": "diegozoracky.com",
+		"twitter": "@diegozoracky",
+		"npm": "@diegozoracky",
+		"github": "@diegozoracky"
+	},
+	"licenses": {
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/MIT"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/DiegoZoracKy/angular-api-factory.git"
+	},
+	"keywords":[
+		"$http",
+		"ajax",
+		"api structure",
+		"api factory",
+		"api definition",
+		"ajax api",
+		"api"
+
+	],
+	"dependencies": {
+		"angular": "*"
+	},
+	"bugs": "https://github.com/DiegoZoracKy/angular-api-factory/issues"
+}
