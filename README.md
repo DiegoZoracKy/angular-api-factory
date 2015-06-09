@@ -4,6 +4,17 @@ The angular version of: https://github.com/DiegoZoracKy/AjaxAPIFactory
 
 Gets an object literal with a desired API's structure and based on it, creates a well defined interface to handle ajax calls ($http). Inspired by the jQuery version that i created some time ago:
 
+## Install
+
+### NPM / Node
+```javascript
+npm install data-query
+```
+
+### Bower
+```javascript
+bower install data-query
+```
 
 ## The goal
 
