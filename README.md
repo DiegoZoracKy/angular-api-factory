@@ -211,7 +211,7 @@ The object used to construct the API will need some specific data expected by th
  https://www.some-domain.com/api/v1/product/PRODUCT-ID/save
 
  For this case, the setup would be something like:
- *Attention for the **{{PRODUCT-ID}}** on url.*
+ *Attention for the {{PRODUCT-ID}} on url.*
 
  ```javascript
 save: {
