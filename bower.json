@@ -1,6 +1,6 @@
 {
 	"name": "angular-api-factory",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "Gets an object literal with a desired API's structure and based on it, creates a well defined interface to handle ajax calls ($http).",
 	"main": "./lib/apifactory.module.js",
 	"moduleType": ["globals"],

@@ -125,10 +125,8 @@ angular.module('site').controller('ProductController', ['$scope', 'Product', fun
 
     // Assuming that this function is called on view, passing a product data (object literal) as a param.
     $scope.loadData = function(product) {
-        Product.save(product).success(function(response) {
-            console.log('Fetched successfully', response);
-        }).error(function(data) {
-            console.warn('Don\'t Panic... Maybe is just some required params that is missing');
+        Product.save(product).error(function(data) {
+            console.warn('Don\'t Panic... Maybe is just some required params that is missing. Check:', data);
         });
     };
 }]);
